@@ -1,0 +1,10 @@
+{application,chatter,
+             [{description,"chatter"},
+              {modules,['Elixir.Chatter','Elixir.Chatter.ViewHelper',
+                        'Elixir.Chatter.Web']},
+              {registered,[]},
+              {vsn,"0.0.1"},
+              {mod,{'Elixir.Chatter',[]}},
+              {applications,[kernel,stdlib,elixir,phoenix,phoenix_pubsub,
+                             phoenix_html,cowboy,logger,gettext,phoenix_ecto,
+                             postgrex,comeonin]}]}.
